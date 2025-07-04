@@ -27,6 +27,18 @@
                 "Colors": []
             }
         },
+        "InstalledBodyKits": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "Vinyls": [],
+        "Window": [],
         "AdditionalData": {
             "WheelTextFont": 0,
             "Fso": {
@@ -40,65 +52,13 @@
             "AccessoryId": 0,
             "IsPolice": false,
             "WheelText": "",
-            "WheelTextFontStyle": 0
+            "WheelTextFontStyle": 0,
+            "Police": {
+                "Installed": true,
+                "Bought": true
+            }
         },
-        "InstalledBodyKits": [
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-        ],
-        "Vinyls": [],
-        "Window": [],
         "TuningData": {
-            "FrontLSD": {
-                "W": 0,
-                "ID": 99936001
-            },
-            "DynamicTuningValues": {
-                "FrontAccelBias": -1,
-                "LaunchTime": -1,
-                "FrontBrakeBias": -1,
-                "FrontMaxBias": -1,
-                "LaunchRpm": -1,
-                "TorqueSplit": -1,
-                "MaxSteeringAngle": 33,
-                "RedlineRpm": -1,
-                "FuelType": 0,
-                "RearTorqueBiasRatio": -1,
-                "RearAccelBias": -1,
-                "FrontTorqueBiasRatio": -1,
-                "Gears": [
-                    -1,
-                    -1,
-                    -1,
-                    -1,
-                    -1,
-                    -1,
-                    -1,
-                    -1,
-                    -1,
-                    -1,
-                    -1,
-                    -1,
-                    -1,
-                    -1
-                ],
-                "Boost": -1,
-                "RearBrakeBias": -1,
-                "RearMaxBias": -1,
-                "FinalDrive": -1,
-                "IdleRpm": -1,
-                "MixtureRatio": -1
-            },
-            "GearBox": {
-                "W": 0,
-                "ID": 99919038
-            },
             "EngineKitData": {
                 "Camshaft1": {
                     "W": 0,
@@ -187,10 +147,6 @@
                 1684300930,
                 0
             ],
-            "RearLSD": {
-                "W": 0,
-                "ID": 99937001
-            },
             "FrontWheelData": {
                 "tyreWidth": 155,
                 "tyreType": 0,
@@ -327,6 +283,54 @@
                 "rimWidth": 55,
                 "tyreProfile": 55,
                 "RimModelId": "8"
+            },
+            "DynamicTuningValues": {
+                "FrontAccelBias": -1,
+                "LaunchTime": -1,
+                "FrontBrakeBias": -1,
+                "FrontMaxBias": -1,
+                "TorqueSplit": -1,
+                "MaxSteeringAngle": 33,
+                "FuelType": 0,
+                "RearTorqueBiasRatio": -1,
+                "RearAccelBias": -1,
+                "FrontTorqueBiasRatio": -1,
+                "Gears": [
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1
+                ],
+                "Boost": -1,
+                "RearBrakeBias": -1,
+                "RearMaxBias": -1,
+                "FinalDrive": -1,
+                "IdleRpm": 10000000,
+                "LaunchRpm": 10000000,
+                "RedlineRpm": 10000000,
+                "MixtureRatio": 40
+            },
+            "FrontLSD": {
+                "W": 0,
+                "ID": 99936006
+            },
+            "GearBox": {
+                "W": 0,
+                "ID": 99919051
+            },
+            "RearLSD": {
+                "W": 0,
+                "ID": 99937006
             }
         }
     }
